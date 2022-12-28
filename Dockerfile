@@ -16,4 +16,4 @@ EXPOSE 8080/tcp
 
 COPY --from=builder /app /
 
-CMD ["src/index.js"]
+CMD ["index.js"]
